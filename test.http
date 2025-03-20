@@ -1,0 +1,15 @@
+### llama
+POST http://localhost:3000/llama
+Content-Type: application/json
+
+{
+  "prompt":"오늘 저녁 메뉴를 추천해줘"
+}
+
+### deepseek
+POST http://localhost:3000/deepseek
+Content-Type: application/json
+
+{
+  "prompt":"오늘 저녁 메뉴를 추천해줘"
+}
